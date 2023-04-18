@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+:root {
+    --theme-primary: #482F26;
+    --theme-secondary: #AF907C;
+    --theme-text-light: #E8E8E8;
+    --theme-text-dark: #0F0D0C;
+    --theme-background-light: #D8DCD7;
+    --theme-background-dark: #0F0D0C;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--theme-background-light) !important;
+    color: var(--theme-background-dark) !important;
+    margin: 0%;
+    min-width: 300px !important;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--theme-primary) !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-link i {
+    vertical-align: text-bottom;
+}
+
+.text-theme{
+    color: var(--theme-secondary) !important;
+}
+
+
+/* Iconos */
+.material-symbols-rounded {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
